@@ -1,0 +1,33 @@
+::selection {
+  background: lavender;
+  color: black;
+}
+
+:root {
+  background: #011;
+  color: aquamarine;
+}
+
+:link {
+  color: #100;
+  background: skyblue;
+}
+
+:visited {
+  color: #100;
+  background: deepskyblue;
+}
+
+:any-link:hover {
+  background: aquamarine;
+  text-decoration-color: navy;
+}
+
+mark {
+  background: chartreuse;
+  color: #100;
+}
+
+body {
+  background-image: radial-gradient(teal, deepskyblue, rebeccapurple);
+}
